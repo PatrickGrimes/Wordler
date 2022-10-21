@@ -79,7 +79,6 @@ public class Wordler {
       // It's the actual letter, so we want that.
       currentString += GUESS_PATTERN[currentString.length()];
       doThatWordleThing(currentString);
-      currentString = currentString.substring(0, currentString.length() - 1);
     } else {
       // We don't know what letter this is, so we'll loop through them
       for (char alpha : alphabet) {
