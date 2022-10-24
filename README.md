@@ -1,5 +1,5 @@
 # Wordler
-A Wordle solving application
+A Wordle solving application written in Java.
 
 ## Instructions
 Update the following:
